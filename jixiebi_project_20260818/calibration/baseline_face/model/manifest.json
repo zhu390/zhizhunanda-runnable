@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-07-20T15:42:56",
+  "raw_dir": "/home/jetson/jixiebi/calibration/baseline_face/raw",
+  "views": {
+    "front": {
+      "count": 183,
+      "resolution": [
+        640,
+        480
+      ],
+      "median": "/home/jetson/jixiebi/calibration/baseline_face/model/front_median.png",
+      "noise": "/home/jetson/jixiebi/calibration/baseline_face/model/front_noise.png",
+      "first": "/home/jetson/jixiebi/calibration/baseline_face/raw/front/baseline_front_001.png",
+      "last": "/home/jetson/jixiebi/calibration/baseline_face/raw/front/baseline_front_183.png"
+    },
+    "left": {
+      "count": 120,
+      "resolution": [
+        640,
+        480
+      ],
+      "median": "/home/jetson/jixiebi/calibration/baseline_face/model/left_median.png",
+      "noise": "/home/jetson/jixiebi/calibration/baseline_face/model/left_noise.png",
+      "first": "/home/jetson/jixiebi/calibration/baseline_face/raw/left/baseline_left_001.png",
+      "last": "/home/jetson/jixiebi/calibration/baseline_face/raw/left/baseline_left_120.png"
+    },
+    "right": {
+      "count": 130,
+      "resolution": [
+        640,
+        480
+      ],
+      "median": "/home/jetson/jixiebi/calibration/baseline_face/model/right_median.png",
+      "noise": "/home/jetson/jixiebi/calibration/baseline_face/model/right_noise.png",
+      "first": "/home/jetson/jixiebi/calibration/baseline_face/raw/right/baseline_right_001.png",
+      "last": "/home/jetson/jixiebi/calibration/baseline_face/raw/right/baseline_right_130.png"
+    }
+  }
+}

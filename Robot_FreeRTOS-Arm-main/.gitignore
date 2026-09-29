@@ -1,0 +1,24 @@
+﻿# Keil / ARMClang build outputs
+Objects/
+Listings/
+*.o
+*.d
+*.axf
+*.map
+*.lst
+*.crf
+*.dep
+
+# Logs / crash
+build*.log
+hs_err_pid*.log
+
+# User-specific IDE files
+*.uvguix.*
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+git更新操作/

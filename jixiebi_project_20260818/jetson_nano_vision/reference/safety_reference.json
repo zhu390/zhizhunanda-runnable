@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "created_at_unix": 1784375030.1613655,
+  "image_size": [
+    640,
+    480
+  ],
+  "safety_image": "/home/jetson/jixiebi/jetson_nano_vision/reference/safety_distance.png",
+  "face_area_ratio": 0.26421549479166667,
+  "face_bbox_ratio": 0.7895833333333333,
+  "warn_scale": 1.1,
+  "danger_scale": 1.0,
+  "direction": "smaller_face_ratio_is_danger"
+}

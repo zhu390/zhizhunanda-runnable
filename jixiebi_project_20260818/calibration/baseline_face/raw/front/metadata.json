@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-07-20T15:36:59",
+  "purpose": "no_mole_face_baseline",
+  "view": "front",
+  "camera": "/dev/v4l/by-id/usb-Generic_USB_Camera_YHTek-video-index0",
+  "camera_label": "/dev/v4l/by-id/usb-Generic_USB_Camera_YHTek-video-index0 v4l2 req=640x480@30 MJPG actual=640x480 MJPG driver_fps=60.0 probe_fps=31.0 controls=brightness=0,gain=64,backlight=0",
+  "resolution": [
+    640,
+    480
+  ],
+  "fps": 30,
+  "flip": "none",
+  "brightness": 0.0,
+  "gain": 64.0,
+  "backlight_compensation": 0.0,
+  "saved_count_this_run": 100
+}

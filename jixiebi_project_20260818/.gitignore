@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Build and install outputs
+build/
+dist/
+*.egg-info/
+pyorbbecsdk/build/
+pyorbbecsdk/build_*/
+pyorbbecsdk/install/
+pyorbbecsdk/.deps/
+
+# Runtime logs
+Log/
+*.log
+*.log.txt
+captures/
+diagnostics/
+
+# Local dataset transfer/training bundles (keep them on disk, do not duplicate in Git)
+/datasets (1)/
+/datasets.zip
+/yolo_new_direction_*.tar.gz
+/models/arm_face_yolo/best_before_*.pt
+
+# Local editor/system files
+.DS_Store
+.vscode/
+.idea/

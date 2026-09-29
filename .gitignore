@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.vscode/
+.idea/
+Objects/
+Listings/
+build/
+dist/
+*.log
+*.uvguix.*
+.env
+Thumbs.db

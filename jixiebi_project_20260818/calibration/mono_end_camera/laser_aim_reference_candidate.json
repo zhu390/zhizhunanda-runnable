@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "candidate_unverified",
+  "enabled_for_formal_targeting": false,
+  "captured_at": "2026-07-17T21:48:00+08:00",
+  "camera": "/dev/v4l/by-id/usb-Generic_USB_Camera_YHTek-video-index0",
+  "resolution": [640, 480],
+  "fps": 30,
+  "flip": "none",
+  "rotate": "none",
+  "work_distance_mm": 17.5,
+  "reference_pixel": [398, 226],
+  "offset_px": [78, -14],
+  "source": "Laser Offset Tuner X11 click on the visible curved-surface spot",
+  "profiles": {
+    "flat_target_17_5mm": {
+      "reference_pixel": [419, 225],
+      "offset_px": [99, -15]
+    },
+    "curved_mannequin_17_5mm": {
+      "reference_pixel": [398, 226],
+      "offset_px": [78, -14]
+    }
+  },
+  "verification": {
+    "flat_target": "reference=(419,225), offset=(99,-15)",
+    "curved_mannequin": "reference=(398,226), offset=(78,-14)",
+    "surface_shift_px": [-21, 1],
+    "result": "saved; repeatability across the curved working region is still pending"
+  },
+  "notes": "Saved at the user's request. The curved profile is the current selected value. It is intentionally not activated automatically because one curved sample does not establish worst-case repeatability within the RA6M5 +/-5 px threshold."
+}

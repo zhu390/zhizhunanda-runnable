@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-06-30T07:53:30.680540+00:00",
+  "camera": "0",
+  "camera_label": "0 v4l2 MJPG 30fps",
+  "image_size": [
+    320,
+    240
+  ],
+  "requested_fps": 30,
+  "flip": "none",
+  "frame_count": 30,
+  "undistorted": false,
+  "calib_params": null,
+  "calib_sha256": null,
+  "reference_image": "/home/jetson/jixiebi/jetson_nano_vision/reference/clean_face.png",
+  "serial_port": "/dev/ttyUSB0",
+  "target_ctrl_started": true,
+  "waited_ready": true
+}
